@@ -23,6 +23,12 @@ module.exports = {
   axios: [
 
   ],
+  plugins: [
+    '~/plugins/axios.js'
+  ],
+  env: {
+    QIITA: process.env.QIITA_TOKEN
+  },
   /*
   ** Build configuration
   */
